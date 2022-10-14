@@ -1,0 +1,98 @@
+{
+
+  "name": "discord-music-bot",
+
+  "description": "Discord Music Bot with integrations with YouTube, and Spotify",
+
+  "version": "1.0.0",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "test": "nodemon index.js"
+
+  },
+
+  "repository": {
+
+    "type": "git",
+
+    "url": "git+https://github.com/GhostOfToyman/discord-music-bot.git"
+
+  },
+
+  "keywords": [
+
+    "bot",
+
+    "discord"
+
+  ],
+
+  "author": "Patrick Rall",
+
+  "license": "MIT",
+
+  "bugs": {
+
+    "url": "https://github.com/GhostOfToyman/discord-music-bot/issues"
+
+  },
+
+  "homepage": "https://github.com/GhostOfToyman/discord-music-bot#readme",
+
+  "dependencies": {
+
+    "cpu-stat": "^2.0.1",
+
+    "discord.js": "^14.6.0",
+
+    "dotenv": "^16.0.3",
+
+    "erela.js": "^2.4.0",
+
+    "express": "^4.18.2",
+
+    "express-session": "^1.17.3",
+
+    "jsoning": "^0.13.23",
+
+    "lavasfy": "^2.3.0",
+
+    "lodash": "^4.17.21",
+
+    "lyrics-finder": "^21.7.0",
+
+    "moment": "^2.29.4",
+
+    "moment-duration-format": "^2.3.2",
+
+    "mongodb": "^4.10.0",
+
+    "mongoose": "^6.6.5",
+
+    "node-fetch": "^3.2.10",
+
+    "passport": "^0.6.0",
+
+    "passport-discord": "^0.1.4",
+
+    "pretty-ms": "^8.0.0",
+
+    "socket.io": "^4.5.2",
+
+    "winston": "^3.8.2"
+
+  },
+
+  "devDependencies": {
+
+    "nodemon": "^2.0.20",
+
+    "prettier": "^2.7.1"
+
+  }
+
+}
+
